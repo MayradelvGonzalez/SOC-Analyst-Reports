@@ -1,21 +1,19 @@
-# 🚨 Reporte de Incidente SOC: [ID del Ticket / Nombre Breve]
+# 🚨 SOC Incident Report: #8902 - Malicious Download via Certutil
 
-**Fecha del Análisis:** 2026-10-28  
-**Analista:** Mayra del Valle González
-**Severidad:** 🔴 Alta / Crítica  
-**Veredicto Final:** Verdadero Positivo (True Positive)  
-**Táctica MITRE ATT&CK:** Execution / Defense Evasion / Command and Control (T1105 - Ingress Tool Transfer)  
-
----
-
-## 1. 📌 Resumen Ejecutivo
-*(Un párrafo breve para que un gerente entienda qué pasó sin entrar en tecnicismos)*  
-Se detectó una ejecución sospechosa del binario legítimo `certutil.exe` en el equipo `FINANZAS-PC03`. La herramienta fue utilizada para descargar un archivo `.dll` no autorizado desde un dominio externo desconocido (`temp-storage-downloads.com`). El equipo fue aislado de la red para prevenir ejecución o propagación de malware.
+**Analysis Date:** 2026-10-28  
+**Analyst:** Mayra del Valle González  
+**Severity:** 🔴 High / Critical  
+**Final Verdict:** True Positive  
+**MITRE ATT&CK Tactics:** Execution / Defense Evasion / Command and Control (T1105 - Ingress Tool Transfer)  
 
 ---
 
-## 2. 🔍 Telemetría del Evento (Evidencia)
-*(Copia del log o evento original)*
+## 1. 📌 Executive Summary
+A suspicious execution of the legitimate binary `certutil.exe` was detected on host `FINANZAS-PC03`. The tool was abused to download an unauthorized `.dll` file from an unknown external domain (`temp-storage-downloads.com`). The host was isolated from the network to prevent further execution or malware propagation.
+
+---
+
+## 2. 🔍 Event Telemetry (Evidence)
 
 ```text
 Event ID: 1
