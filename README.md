@@ -9,11 +9,12 @@ Welcome to my cybersecurity incident response and threat triage portfolio. This 
 | ID Ticket | Category / Source | Attack Vector / Technique | Verdict | Full Report |
 |---|---|---|---|---|
 | **#9412** | EDR / Sysmon | Internal Reconnaissance (`whoami` / `ipconfig`) | True Positive | [View Report](./Casos-EDR-Logs/INCIDENTE-9412-WHOAMI-RECON.md) |
+| **#8902** | EDR / Sysmon | Malicious Download (`certutil.exe`) | True Positive | [View Report](./Casos-EDR-Logs/INCIDENTE-8902-CERTUTIL.md) |
 
 ---
 
 ## 🛠️ Skills & Tools Demonstrated
 * **Log Analysis:** Windows Event Logs, Sysmon, EDR Telemetry.
-* **Threat Frameworks:** MITRE ATT&CK (Discovery, Defense Evasion).
+* **Threat Frameworks:** MITRE ATT&CK (Discovery, Defense Evasion, Command and Control).
 * **Investigation Workflow:** Triage, Root Cause Analysis, Containment & Remediation.
 * **Documentation:** Clear technical reporting in English & Spanish.
