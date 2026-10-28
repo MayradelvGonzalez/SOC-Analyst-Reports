@@ -1,7 +1,7 @@
 # 🚨 Reporte de Incidente SOC: [ID del Ticket / Nombre Breve]
 
 **Fecha del Análisis:** 2026-10-28  
-**Analista:** [Tu Nombre / Usuario]  
+**Analista:** Mayra del Valle González
 **Severidad:** 🔴 Alta / Crítica  
 **Veredicto Final:** Verdadero Positivo (True Positive)  
 **Táctica MITRE ATT&CK:** Execution / Defense Evasion / Command and Control (T1105 - Ingress Tool Transfer)  
